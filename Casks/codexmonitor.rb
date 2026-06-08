@@ -8,7 +8,7 @@ cask "codexmonitor" do
   desc "Monitor your ChatGPT Codex quota from the macOS menu bar"
   homepage "https://github.com/HanryYu/codex_multi_monitor"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "CodexMonitor.app"
 

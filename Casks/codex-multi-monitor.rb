@@ -1,4 +1,4 @@
-cask "codexmonitor" do
+cask "codex-multi-monitor" do
   version "0.6.14"
   sha256 "e7554203deed5e73e7820180a26ee2431feca74916a1dd94ee9bb24fb99b964b"
 
@@ -10,15 +10,9 @@ cask "codexmonitor" do
 
   depends_on macos: :sequoia
 
-  conflicts_with cask: "hanryyu/tap/codex-multi-monitor"
+  conflicts_with cask: "hanryyu/tap/codexmonitor"
 
   app "CodexMonitor.app"
-
-  caveats <<~EOS
-    The short token `codexmonitor` conflicts with Homebrew/homebrew-cask.
-    Prefer the conflict-free tap token:
-      brew install --cask HanryYu/tap/codex-multi-monitor
-  EOS
 
   zap trash: [
     "~/Library/Preferences/com.hanryyu.CodexMonitor.plist",

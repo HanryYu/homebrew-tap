@@ -1,6 +1,6 @@
 cask "codexmonitor" do
-  version "0.7.10"
-  sha256 "1722a241ebc1a3a463408f2fca3bdcc68735fb90a39e3775a25f64fa4f39b05a"
+  version "0.7.11"
+  sha256 "fa95b3bd56b212f1e17872393183703b044711d1cb74be5f1c0cf2aac7732ca5"
 
   url "https://github.com/HanryYu/codex_multi_monitor/releases/download/v#{version}/CodexMonitor-#{version}.dmg"
   name "CodexMonitor"
